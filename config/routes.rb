@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   
 
+  resources :thoughts
+
   devise_for :models
   devise_for :users 
 
